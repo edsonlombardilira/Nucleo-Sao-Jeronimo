@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Núcleo São Jerônimo - Santo André. Serviço de Convivência e Fortalecimento de Vínculos e atividades socioeducativas.">
+    <meta name="theme-color" content="#0B4FD6">
+    <title>Núcleo São Jerônimo - Santo André</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BARRA SUPERIOR
+         ===================================================== -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span>Associação Beneficente e Cultural São Jerônimo</span>
+            <span>Santo André - SP</span>
+        </div>
+    </div>
+
+    <!-- =====================================================
+         CABEÇALHO / MENU
+         ===================================================== -->
+    <header class="site-header">
+        <div class="container nav">
+
+            <a class="brand" href="index.html" aria-label="Núcleo São Jerônimo - início">
+                <img src="img/logo.png" alt="Núcleo São Jerônimo">
+            </a>
+
+            <button
+                class="mobile-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="site-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="menu" id="site-menu" aria-label="Navegação principal">
+                <a class="active" href="index.html">Início</a>
+                <a href="#sobre">Quem somos</a>
+                <a href="#oficinas">Oficinas</a>
+                <a href="transparencia.html">Transparência</a>
+                <a href="#contato">Contato</a>
+                <a class="nav-cta" href="#ajudar">Como ajudar</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- =================================================
+             HERO
+             O texto e os botões permanecem fixos.
+             Somente as imagens de fundo mudam pelo carrossel.
+             Coloque as fotos reais em:
+             img/hero/hero-01.svg
+             img/hero/hero-02.svg
+             img/hero/hero-03.svg
+             ================================================= -->
+        <section class="hero hero-carousel" aria-label="Apresentação do Núcleo São Jerônimo">
+
+            <div class="hero-slides" aria-hidden="true">
+                <div class="hero-slide is-active" style="background-image: url('img/hero/hero-logo-direita.png');"></div>
+                <div class="hero-slide" style="background-image: url('img/hero/oficinas/img-musicalização.jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img/hero/oficinas/img-arteatro\ \(2\).jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img/hero/oficinas/img-futsal\ \(2\).jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img/hero/oficinas/img-dança.jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img/hero/oficinas/img-midia-sociais.jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img/hero/oficinas/img-artesanato\ \(2\).jpeg');"></div>
+
+
+            </div>
+
+            <!-- Filtro geral sobre a foto.
+                 A área esquerda recebe uma camada mais escura para
+                 manter o texto legível sem alterar sua posição. -->
+            <div class="hero-overlay" aria-hidden="true"></div>
+
+            <div class="container hero-content">
+                <div class="hero-copy">
+
+                    <h1>
+                        Abraço que acolhe,
+                        <span class="texto-gradiente">ampara e transforma.</span>
+                    </h1>
+
+                    <p class="lead">
+                        Descobrindo potencialidades, fortalecendo vínculos e transformando trajetórias.
+                    </p>
+
+                    <div class="actions">
+                        <a class="btn btn-primary" href="#oficinas">Conheça nossas oficinas</a>
+                        <a class="btn btn-light" href="transparencia.html">Ver transparência</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Controles do carrossel -->
+            <div class="container hero-controls">
+
+                <button class="hero-control hero-prev" type="button" aria-label="Imagem anterior">
+                    &#10094;
+                </button>
+
+                <div class="hero-dots" aria-label="Selecionar imagem">
+                    <button class="hero-dot is-active" type="button" aria-label="Mostrar imagem 1" aria-current="true"></button>
+                    <button class="hero-dot" type="button" aria-label="Mostrar imagem 2"></button>
+                    <button class="hero-dot" type="button" aria-label="Mostrar imagem 3"></button>
+                </div>
+
+                <button class="hero-control hero-next" type="button" aria-label="Próxima imagem">
+                    &#10095;
+                </button>
+
+            </div>
+        </section>
+
+        <!-- =================================================
+             ESTATÍSTICAS
+             ================================================= -->
+        <section class="stats" aria-label="Números do serviço">
+            <div class="container stat-grid">
+
+                <div class="stat">
+                    <strong>6</strong>
+                    <span>Oficinas atuais</span>
+                </div>
+
+                <div class="stat">
+                    <strong>2</strong>
+                    <span>Períodos de atendimento</span>
+                </div>
+
+                <div class="stat">
+                    <strong>6-15</strong>
+                    <span>Faixa etária</span>
+                </div>
+
+                <div class="stat">
+                    <strong>SCFV</strong>
+                    <span>Serviço de Convivência</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =================================================
+             QUEM SOMOS
+             ================================================= -->
+        <section class="section" id="sobre">
+            <div class="container split">
+
+                <div class="about-copy">
+                    <div class="nos">Quem somos</div>
+
+                    <h2>Núcleo São Jerônimo</h2>
+
+                    <p class="lead">
+                        Uma entidade sem fins econômicos de caráter beneficente dirigida pelos Religiosos Somascos,
+                        tendo por finalidade atividades de assistência e desenvolvimento social, artístico, cultural,
+                        literário e recreativo, como instrumento de enfrentamento à pobreza, defesa, proteção e
+                        segurança de convívio. <br> Desenvolvido através de ações centradas no fortalecimento da autoestima, dos laços de solidariedade e dos sentimentos de pertença e coletividade, com o objetivo de ampliar a participação coletiva das crianças e dos adolescentes no espaço social.
+                    </p>
+
+                    <!-- <a class="btn btn-light claro" href="transparencia.html">
+                        Conheça os dados institucionais
+                    </a> -->
+
+                </div>
+
+                <!-- Missão, visão e valores -->
+                <div class="values-panel">
+
+                    <article class="value-item">
+                        <span class="value-icon" aria-hidden="true">◎</span>
+                        <div>
+                            <h3>Missão</h3>
+                            <p>
+                                Defender, garantir e promover os direitos da criança e do adolescente, por meio de
+                                atividades para o enfrentamento da vulnerabilidade social na convivência de vínculos familiares.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="value-item">
+                        <span class="value-icon" aria-hidden="true">◌</span>
+                        <div>
+                            <h3>Visão</h3>
+                            <p>
+                                Ser referência na melhoria das condições da coletividade do bem comum e no interesse social.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="value-item">
+                        <span class="value-icon" aria-hidden="true">✦</span>
+                        <div>
+                            <h3>Valores</h3>
+                            <p>
+                                Cuidado, solidariedade, espiritualidade, dignidade, integralidade, acompanhamento personalizado,
+                                busca ativa, disponibilidade, tolerância, afetividade equilibrada e coletividade.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =================================================
+             OFICINAS
+             ================================================= -->
+        <section class="section section-white" id="oficinas">
+            <div class="container">
+
+                <div class="section-head">
+                    <div>
+                        <div class="kicker">Nossa atuação</div>
+                        <h2>Atividades que despertam potencialidades e fortalecem vínculos.</h2>
+                    </div>
+                </div>
+
+                <div class="cards">
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">🎵</div>
+                        <h3>Musicalização</h3>
+                        <p>Expressão, criatividade, escuta e experiências musicais em grupo.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">🖥️</div>
+                        <h3>Mídias Sociais</h3>
+                        <p>Tecnologia como ferramenta de aprendizagem, criação e descoberta.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">⚽</div>
+                        <h3>Esportes</h3>
+                        <p>Movimento, participação, cooperação e desenvolvimento corporal.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">🎨</div>
+                        <h3>Artesanato</h3>
+                        <p>Criação manual, imaginação e desenvolvimento de habilidades.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">🎭</div>
+                        <h3>Arteatro</h3>
+                        <p>Expressão, comunicação, criatividade e convivência.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">💃</div>
+                        <h3>Dança</h3>
+                        <p>Corpo, ritmo, expressão e construção coletiva.</p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =================================================
+             ROTINA
+             ================================================= -->
+        <section class="section" id="rotina">
+            <div class="container">
+
+                <div class="section-head">
+                    <div>
+                        <div class="kicker">Como funciona</div>
+                    </div>
+                </div>
+
+                <div class="cards">
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">📋</div>
+                        <h3>Nossa porta de entrada</h3>
+                        <p>
+                            Atendimento a usuários de 6 a 15 anos, vinculados e encaminhados pelo CRAS Vila Luzita
+                            e CRAS Filipe José Carretero (Jardim Santo André).
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">🕝</div>
+                        <h3>Rotina de atendimento</h3>
+                        <p>
+                            De segunda a quinta-feira.<br>
+                            Manhã: 08h30 às 11h30.<br>
+                            Tarde: 13h30 às 16h30.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">✔️</div>
+                        <h3>Serviços oferecidos</h3>
+                        <p>
+                            Oferta de refeições, atividades de incentivo à cultura e cidadania, esporte,
+                            lazer e atendimento às famílias.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =================================================
+             COMO AJUDAR
+             ================================================= -->
+        <section class="section section-help" id="ajudar">
+            <div class="container">
+
+                <div class="cta">
+
+                    <div>
+                        <div class="kicker kicker-light">Faça parte</div>
+
+                        <h2>Doe, colabore e faça parte dessa rede de proteção.</h2>
+
+                        <p>
+                            Chave PIX: 17.770.702/0004-08<br>
+                            Banco do Brasil - Agência: 3435-5 · CC: 20524-9
+                        </p>
+                    </div>
+
+                    <a class="btn btn-white" href="https://wa.me/5511998379092">Quero ajudar</a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =====================================================
+         RODAPÉ
+         ===================================================== -->
+    <footer id="contato">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <img src="img/logo.png" alt="Núcleo São Jerônimo">
+
+                    <p>
+                        Associação Beneficente e Cultural São Jerônimo<br>
+                        CNPJ 17.770.702/0004-08<br>
+                        Filial: Santo André - SP.
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Explorar</h4>
+                    <a href="#sobre">Quem somos</a>
+                    <a href="#oficinas">Oficinas</a>
+                    <a href="transparencia.html">Transparência</a>
+                </div>
+
+                <div>
+                    <h4>Contato</h4>
+                    <a href="https://www.instagram.com/nucleosaojeronimo?stkn=MWM2cHE4c2cxZzI4ag==" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                        nucleosaojeronimo
+                    </a>
+                    <a href="mailto:nucleosaojeronimosa@gmail.com">nucleosaojeronimosa@gmail.com</a>
+                    <a href="https://wa.me/5511998379092" target="_blank" rel="noopener">
+                        +55 11 99837-9092 / +55 11 92224-7425
+                    </a>
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Rua+Rodrigues+da+Costa+10+Santo+André+SP"
+                        target="_blank"
+                        rel="noopener">
+                        Rua Rodrigues da Costa, 10 · Santo André/SP
+                    </a>
+                        
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>© <span data-year></span> Todos os direitos reservados - Núcleo São Jerônimo</span>
+
+                <span id="dev">Desenvolvedor:<a href="https://www.instagram.com/edson_lombardi_lira?stkn=MXc5ZTM5MHNpNmRtbg==" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                        edson_lombardi_lira
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
